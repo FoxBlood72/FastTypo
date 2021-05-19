@@ -1,0 +1,14 @@
+<div class="info-paragr">
+    <h1 style="color:white;">
+        Contact us for anything
+    </h1>
+    <p id="status" style="color:rgb(0, 202, 0);display: none;">Message sent!</p>
+    <p id="status" style="color:rgb(185, 0, 0);display: none;">Error while sending the message</p>
+    <form method="post" action="/contact" onsubmit="return false">
+        <p>Email</p>
+        <input id="email" name="email" placeholder="Type here your email" type="text"><br><br>
+        <p>Tell us your thoughts</p>
+        <textarea id="content" name="content" class="contactarea" rows="10" placeholder="What would you like to talk about?"></textarea><br><br>
+        <input type="submit" value="Contact" name="submit" onclick="sendContact()">
+    </form>
+</div>

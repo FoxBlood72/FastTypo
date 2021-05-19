@@ -1,0 +1,30 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    padding: 5%;
+    color: white;
+    grid-row-gap: 20px;
+    grid-column-gap: 10%;
+    margin:auto;
+}
+
+.grid-item{
+    text-align: center;
+    font-size: large;
+    font-weight: 200;
+}
+
+.grid-container :nth-child(2){
+    color:rgb(0, 255, 0);
+}
+
+.grid-container :nth-child(1){
+    color:red;
+}
+.grid-container :nth-child(3){
+    color:red;
+}
+.grid-container :nth-child(8){
+    color:rgb(0, 255, 0);
+}

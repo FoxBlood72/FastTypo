@@ -1,0 +1,12 @@
+<div class="admin-panel">
+    <br>
+    <p>Admin Panel</p>
+    <form action="/login" method="post" onsubmit="return false;">
+        <p>Username:</p>
+        <input type="text" name="username" id="username">
+        <p>Password:</p>
+        <input type="password" name="pass" id="pass">
+        <br><br>
+        <input onclick="sendLogin()" type="submit" name="submit" value="Login"><p style="color:red;display: none;" id="status">Incorrect username or password!</p>
+    </form>
+</div>
