@@ -6,3 +6,9 @@
 2. cp private/credentials.example.json private/credentials.json
 3. configure credentials.json with a proper password
 ```
+
+## Preview
+
+![Cool gif](gifs/mistake.gif)
+
+![Cool gif2](gifs/vizibility.gif)
