@@ -2,7 +2,7 @@
 
 ## Instalation
 ```
-1. npm init
+1. npm install
 2. cp private/credentials.example.json private/credentials.json
 3. configure credentials.json with a proper password
 4. node .
